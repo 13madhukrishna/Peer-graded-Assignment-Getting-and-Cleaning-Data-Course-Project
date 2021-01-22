@@ -18,7 +18,7 @@ The main steps of the run_analysis is as follows:
 
   2. The data sets are stored into new variables 
   
-      a. subject_test.txt will be stored into subject_test
+      ```subject_test.txt will be stored into subject_test```
       b. y_test.txt >> y_test
       c. subject_train.txt >> subject_train
       d. y_train.txt >> y_train
