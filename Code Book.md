@@ -32,13 +32,11 @@ The main steps of the run_analysis is as follows:
      them merged into a bigger data set with both x and y data.
      
       ```X <- rbind(x_train, x_test)```
-      ```Y <- rbind(y_train, y_test)
-      ```
-      ```Subject <- rbind(subject_train, subject_test)
-      ```
-      ```Merge_test <- cbind(Subject, Y, X)
-      ```
-      
+      ```Y <- rbind(y_train, y_test)```
+      ```Subject <- rbind(subject_train, subject_test)```
+      ```Merge_test <- cbind(Subject, Y, X)```
+
+
   4. Extracting only the measurements on the mean and standard deviation for each measurement.
       
       Mean_SD_extract data set is created subsetting the larger data set, "Merge_test"
