@@ -18,7 +18,7 @@ The main steps of the run_analysis is as follows:
 
   2. The data sets are stored into new variables 
   
-      ```subject_test.txt will be stored into subject_test```
+      a. subject_test.txt will be stored into subject_test
       b. y_test.txt >> y_test
       c. subject_train.txt >> subject_train
       d. y_train.txt >> y_train
@@ -31,10 +31,14 @@ The main steps of the run_analysis is as follows:
   3. Next, the code will merge the training and test data sets of x and y using rbind(), 
      them merged into a bigger data set with both x and y data.
      
-      X <- rbind(x_train, x_test) 
-      Y <- rbind(y_train, y_test)
-      Subject <- rbind(subject_train, subject_test)
-      Merge_test <- cbind(Subject, Y, X)
+      ```X <- rbind(x_train, x_test)
+      ```
+      ```Y <- rbind(y_train, y_test)
+      ```
+      ```Subject <- rbind(subject_train, subject_test)
+      ```
+      ```Merge_test <- cbind(Subject, Y, X)
+      ```
       
   4. Extracting only the measurements on the mean and standard deviation for each measurement.
       
