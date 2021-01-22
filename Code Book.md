@@ -31,8 +31,7 @@ The main steps of the run_analysis is as follows:
   3. Next, the code will merge the training and test data sets of x and y using rbind(), 
      them merged into a bigger data set with both x and y data.
      
-      ```X <- rbind(x_train, x_test)
-      ```
+      ```X <- rbind(x_train, x_test)```
       ```Y <- rbind(y_train, y_test)
       ```
       ```Subject <- rbind(subject_train, subject_test)
